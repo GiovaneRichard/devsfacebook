@@ -1,5 +1,7 @@
 <?php
-$base = 'http://localhost/git/devsfacebook/';
+session_start();
+
+$base = 'http://localhost/git/devsfacebook';
 
 $db_name = 'devsfacebook';
 $db_host = 'localhost';
